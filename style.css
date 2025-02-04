@@ -125,8 +125,7 @@ p {
 
 
 .form {
-  margin-top: 2em;
-  
+  margin-top: 2em; 
 }
 
 .form-inputs {
@@ -135,10 +134,41 @@ p {
   align-items: center;
 }
 
+input {
+  background: var(--Neutral-900);
+  border: 1px solid var(--Neutral-700);
+  height: 40px;
+  width: 400px;
+  border-radius: 8px;
+}
+
+.inputs {
+  
+  display: flex;
+  flex-direction: column;
+  padding: 14px;
+}
 
 label {
   color: var(--Neutral-300);
   font-size: 20px;
+}
+
+button {
+  width: 400px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  background: var(--Orange-500);
+  color: var(--Neutral-900);
+  font-weight: 700;
+  padding: 8px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: var(--Orange-700);
 }
 
 .pattern-ticket {
